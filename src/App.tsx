@@ -43,7 +43,7 @@ function App() {
               </div>
             </div>
             <div className="flex space-x-2 items-center relative z-10">
-              <a href="/register">
+              <a href="#register">
                 <button className="text-[#646cff] inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent-purple disabled:opacity-50 disabled:pointer-events-none text-ink-200 hover:text-white hover:bg-[#646cff]/10 hover:shadow-sm text-base px-5 py-2.5 rounded-xl">
                   Cadastrar
                 </button>
@@ -206,8 +206,8 @@ function App() {
           </section>
           <section className="relative py-24 md:py-32 bg-navy">
             <div className="absolute inset-0 overflow-hidden">
-              <div className="absolute top-1/2 -left-48 w-96 h-96 bg-accent-purple/10 rounded-full blur-[100px]"></div>
-              <div className="absolute top-1/2 -right-48 w-96 h-96 bg-accent-blue/10 rounded-full blur-[100px]"></div>
+              <div className="absolute top-1/2 -left-48 w-96 h-96 bg-[#8B5CF6]/10 rounded-full blur-[100px]"></div>
+              <div className="absolute top-1/2 -right-48 w-96 h-96 bg-[#00C2FF]/10 rounded-full blur-[100px]"></div>
             </div>
             <div className="mx-auto px-4 md:px-6 lg:px-8 max-w-[1200px] relative z-10">
               <div className="text-center">
